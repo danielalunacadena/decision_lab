@@ -29,7 +29,8 @@ presets = {
 
 st.set_page_config(page_title="Decision Lab", layout="centered")
 
-st.title("Decision Lab")
+st.title("🧠 Decision Lab")
+st.markdown("## 🎯 Make better decisions with data + intuition")
 
 scenario = st.selectbox(
     "Choose a decision scenario",
@@ -39,6 +40,8 @@ st.subheader("Modeling subjective decisions under uncertainty")
 st.caption("A hybrid decision framework: probability, impact, and emotional weight.")
 
 decision = st.text_input("What decision are you evaluating?")
+if decision:
+    st.success(f"Analyzing: {decision}")
 
 st.markdown("### Define Possible Outcomes")
 
