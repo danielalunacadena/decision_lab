@@ -1,42 +1,27 @@
-# Decision Lab
+# 🧠 Decision Lab
 
-Decision Lab is a hybrid analytical tool designed to model subjective decisions under uncertainty.
+An interactive decision-making tool that helps evaluate complex choices under uncertainty.
 
-This project combines probability theory, expected value analysis and Monte Carlo simulation to explore how emotional impact and risk interact in decision making.
+## 🚀 Features
 
-## Features
-
-- Scenario based decision modeling
-- Emotional impact scoring (-10 to 10)
-- Expected value calculation
-- Risk estimation (standard deviation)
-- Emotional Weighted Index (EWI)
+- Expected Value analysis
+- Risk measurement (standard deviation)
+- Emotional weighting (EWI)
 - Monte Carlo simulation
-- Visual outcome analysis
+- Interactive UI
 
-## Tech Stack
+## 🛠 Tech Stack
 
-Python  
-Streamlit  
-NumPy  
-Pandas  
-Matplotlib
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
 
-## Run the project
+## 🎯 Purpose
 
-Clone the repository
+To combine logic, probability, and emotional impact into better decision-making.
 
-git clone https://github.com/danielalunacadena/decision_lab.git
+## 🔗 Live App
 
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the app
-
-streamlit run app.py
-
-## Author
-
-Daniela Luna  
-Data & Decision Modeling
+(https://decisionlab-9uicczafrxvvqnsx77xappj.streamlit.app/) 
